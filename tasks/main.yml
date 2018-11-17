@@ -1,0 +1,7 @@
+---
+- name: install mariadb
+  apt:
+    name: mariadb-server
+    state: latest
+
+# vim: ts=2 sw=2 et
